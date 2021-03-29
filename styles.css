@@ -1,0 +1,314 @@
+* {
+    outline: 5px dotted line;
+}
+
+
+
+/*UPDATE TYPEFACE!!!! */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    background-color: #f2f2f2;
+    margin: 0 0 0 0;
+    font-family:"Lato", sans-serif;
+}
+
+
+/*On screens that are 992px or less, set the background color to light blue */
+
+@media screen and (max-width: 1600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (min-width: 2280px) and (min-width: 600px){
+.container_12 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    max-width: 2569px;
+
+}}
+
+.background-img1 {
+    background-image: url(Components/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    height: 100%;
+    background-size: cover;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.background-img2 {
+    background-image: url(Components/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    height: 100%;
+    background-size: cover;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.background-img3 {
+    background-image: url(Components/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    height: 100%;
+    background-size: cover;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.background-img4 {
+    background-image: url(Components/4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    height: 100%;
+    background-size: cover;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+/*Trying to do image swap START*/
+.logo-top {
+    width: 130px;
+    height: auto;
+}
+
+/*
+ .logo-top:hover {
+     background-image: url(Components/LOGO-BLACK.png);
+     width: 130px;
+     height: auto;
+}
+
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+    padding-top: 5px;
+}
+/*Trying to do image swap END*/
+
+.nav a {
+    line-height: 130px;
+    float: left;
+    padding: 12px 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/*Navigation color rules START*/
+.selected {
+    color:#00013a;
+}
+
+.unselected {
+    color: #f2f2f2;
+}
+
+.unselected:hover {
+    color: #e60026;
+}
+/*Navigation color rules END*/
+
+.big-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.big-text h1 {
+    font-family: cortado, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80pt;
+    color: #f2f2f2;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 100px;
+}
+
+.big-text h2 {
+    color: #f2f2f2;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 3px;
+    margin-top: -50px;
+}
+
+.scroll {
+    width: 90px;
+    height: auto;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.disclaimer {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 95%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+.quote {
+    background-color: #f2f2f2;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
+.branch {
+    background-color: #f2f2f2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    height: auto;
+    position: relative;
+    margin-top:-48px;
+}
+
+h3{
+    color: black;
+    font-size: 11pt;
+    font-weight: 300;
+    text-align: center;
+}
+
+ h3 {
+    border: 4px solid #e60026;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    width: 500px;
+    height: 60px;
+    position: relative;
+    margin: 20px auto;
+}
+
+ h3:before {
+    border: 1px solid #e60026;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+}
+
+.section-header {
+    background-color: #00013a;
+    height: auto;
+    text-align: center;
+    padding-top: 1px;
+}
+
+h4 {
+    color: #f2f2f2;
+    font-family: cortado, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45pt;
+    line-height: 50px;
+    position: relative;
+}
+
+.red-circle{
+    width: 150px;
+    height: auto;
+    margin: -180px;
+}
+
+.work .img{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap: 50px;
+    background-color: #f2f2f2;
+    height: 900px;
+    padding-top: 1px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.column {
+    display: grid;
+    flex: 100%;
+    margin-right: 20%;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+.column img {
+    vertical-align: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: grid;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 300px;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: black;
+}
+
+.container:hover .overlay {
+    opacity: 0.5;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+    .column {
+    flex: 20%;
+    min-width: 20%;
+    max-width:20%;
+    }
+}
