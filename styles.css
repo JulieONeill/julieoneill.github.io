@@ -238,7 +238,14 @@ h3{
     height: auto;
 }
 
-.work .img{
+.image {
+    display: grid;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.work .image{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 50px;
@@ -269,13 +276,6 @@ h3{
 .container {
     position: relative;
     width: 100%;
-}
-
-.image {
-    display: grid;
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
 }
 
 .overlay {
