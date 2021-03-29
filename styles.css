@@ -216,8 +216,8 @@ h3{
     position: relative;
     text-align: center;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     
 }
 
@@ -233,9 +233,15 @@ h3{
     transform: translate(-50%, -50%);
 }
 
-.red-circle{
+.redcircle{
     width: 150px;
     height: auto;
+}
+
+.Wbackground {
+    margin-top: -20px;
+    background-color: red;
+    height:900px;
 }
 
 #work {
