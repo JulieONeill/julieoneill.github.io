@@ -127,18 +127,19 @@ body {
     font-family: cortado, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 9vw;
-    color: #f2f2f2;
     text-align: center;
+    font-size: 9vw;
+    white-space: nowrap;
+    color: #f2f2f2;
     letter-spacing: 10px;
-    line-height: 120px;
+    margin-bottom: -10px;
 }
 
 .big-text h2 {
+    margin-top: 10px;
     color: #f2f2f2;
     text-align: center;
     font-size: 2.5vw;
-    line-height: ;
     letter-spacing: 3px;
 }
 
