@@ -10,10 +10,20 @@
     
 <body>
 <div class="background-img3">
-    <div class="container">
+        <div class="background-container">
         <div class="nav">
-        <a href="index.html" class="currentLinK">
-        <img class="logo-top" src="Components/LogoWHITE.png"></a> 
+        <a class="logo-link" href="index.html">
+        <img id="my-img" src="Components/LogoWHITE.png" onmouseover="hover(this);" onmouseout="unhover(this);" />      
+<script>
+function hover(element) {
+  element.setAttribute('src', 'Components/LogoRed.png');
+}
+
+function unhover(element) {
+  element.setAttribute('src', 'Components/LogoWHITE.png');
+}
+</script>
+        </a>
         <a class="unselected" href="About.html">ABOUT</a>
         <a class="selected" href="Portfolio.html">PORTFOLIO</a>
         <a class="unselected" href="Photography.html">PHOTOGRAPHY</a>        

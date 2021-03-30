@@ -14,14 +14,6 @@ body {
   }
 }
 
-@media only screen and (min-width: 2280px) and (min-width: 600px){
-.container_12 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
-    max-width: 2569px;}
-}
-
 .background-img1 {
     background-image: url(Components/1.jpg);
     background-repeat: no-repeat;
@@ -67,26 +59,13 @@ body {
 }
 
 /*Trying to do image swap START*/
-.logo-top {
+
+#my-img {
     margin-top: -45px;  
     width: 130px;
     height: auto;
 }
 
-/*
- .logo-top:hover {
-     background-image: url(Components/LOGO-BLACK.png);
-     width: 130px;
-     height: auto;
-}
-
-.container {
-    position: absolute;
-    margin: 20px;
-    width: auto;
-    padding-top: 5px;
-}
-/*Trying to do image swap END*/
 
 .nav a {
     margin-top:55px;
@@ -98,7 +77,6 @@ body {
     font-size: 12pt;
 }
 
-/*Navigation color rules START*/
 .selected {
     font-weight: 600;
     color: yellow;
@@ -113,8 +91,6 @@ body {
     font-weight: 600;
     color: red;
 }
-
-/*Navigation color rules END*/
 
 .big-text {
     position: absolute;
@@ -168,7 +144,7 @@ body {
     padding-bottom: 90px;
 }
 
-.branch {
+.branch1 {
     background-color: #f2f2f2;
     display: block;
     margin-left: auto;
@@ -179,7 +155,7 @@ body {
     text-align: center;
     margin-top:-48px;
 }
-
+        
 h3{
     color: black;
     font-size: 11pt;
@@ -277,15 +253,38 @@ img {
     padding-bottom: 100px; 
 }
 
+.branch2 {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    height: auto;
+    position: relative;
+    text-align: center;
+    margin-top:-48px
+}
+
 .work-branch {
     width: 230px;
     height: auto;
 }
 
 .footer {
-    background-color: hotpink;
+    background-color: #ffbcbd;
     height: 300px;
     text-align: center;
+    border-bottom: 10px solid #e60026;
+}
+
+.currentLinK2 {
+    
+}
+
+.logo-top2 {
+    margin-top: 45px;  
+    width: 130px;
+    height: auto;
 }
 
 /*.middle {

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Julie Ellen</title>
    
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles.css">
     
 </head>
     
@@ -12,8 +12,18 @@
 <div class="background-img1">
     <div class="background-container">
         <div class="nav">
-        <a href="index.html" class="currentLinK">
-        <img class="logo-top" src="Components/LogoWHITE.png"></a>
+        <a class="logo-link" href="index.html">
+        <img id="my-img" src="Components/LogoWHITE.png" onmouseover="hover(this);" onmouseout="unhover(this);" />      
+<script>
+function hover(element) {
+  element.setAttribute('src', 'Components/LogoRed.png');
+}
+
+function unhover(element) {
+  element.setAttribute('src', 'Components/LogoWHITE.png');
+}
+</script>
+        </a>
         <a class="unselected" href="About.html">ABOUT</a>
         <a class="unselected" href="Portfolio.html">PORTFOLIO</a>
         <a class="unselected" href="Photography.html">PHOTOGRAPHY</a>        
@@ -29,7 +39,7 @@
    
 <div class="quote">
     <h3>“Creativity doesn’t wait for that perfect moment. It fashions its own perfect moments out of ordinary ones.” — Bruce Garrabrandt</h3> 
-    <img class="branch" src="Components/leafpageDividerV2RED.png">
+    <img class="branch1" src="Components/leafpageDividerV2RED.png">
 </div>
  
 <div class="section-header">
@@ -133,10 +143,11 @@
 </div>
     
 <div class="footer">
-    <!--<h3>Footer info</h3> 
-    <img class="branch" src="Components/leafpageDividerV2RED.png">-->
+    <a class="currentLinK2" href="index.html" >
+        <img class="logo-top2" src="Components/LogoWHITE.png"></a>
+    <img class="branch2" src="Components/leafpageDividerV2RED.png">
 </div>
-        
+            
 </body>
     
 </html>
