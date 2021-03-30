@@ -236,22 +236,12 @@ h3{
     height: auto;
 }
 
-work-container { 
-    background-color: yellow;
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap; 
-    grid-gap: 20px;
-    justify-content: center;
-}
-
 .work1 {
-    background: grey;
+    background: #f2f2f2;
     padding-top: 50px;
     padding-bottom: 50px;
     width: 100%;
     height: auto;
-    border: 1px solid #c3c3c3;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -260,15 +250,12 @@ work-container {
 
 .work-img {
     margin: 10px;
+    height:100%;
+    border: 2px solid lightgrey;
 }
-
-.container div {
-    width:100%;
-    padding: .5em;
-    color: white;
-    flex: 1;
+img {
+    margin-bottom: -3px;
 }
-
 .work-branch {
     margin-top: 20px;
     display: block;
