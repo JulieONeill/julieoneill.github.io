@@ -291,7 +291,7 @@ img {
 }
 
 
-/*.middle {
+.middle {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -302,11 +302,11 @@ img {
   text-align: center;
 }
 
-.work1:hover .work-img {
+.work-img:hover .work-img {
   opacity: 0.3;
 }
 
-.work1:hover .middle {
+.work-img:hover .middle {
   opacity: 1;
 }
 
