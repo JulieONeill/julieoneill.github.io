@@ -129,10 +129,21 @@ function unhover(element) {
 </div>
     
 <div class="footer">
-    <!--<h3>Footer info</h3> 
-    <img class="branch" src="Components/leafpageDividerV2RED.png">-->
-</div>  
-    
+    <a class="logo-link" href="index.html">
+        <img id="logo2" src="Components/LogoWHITE.png" onmouseover="hover(this);" onmouseout="unhover(this);" />      
+<script>
+function hover(element) {
+  element.setAttribute('src', 'Components/LogoRed.png');
+}
+
+function unhover(element) {
+  element.setAttribute('src', 'Components/LogoWHITE.png');
+}
+</script>
+        </a>
+    <img class="work-branch2" src="Components/leafpageDividerV2RED.png">
+</div>
+            
 </body>
     
 </html>

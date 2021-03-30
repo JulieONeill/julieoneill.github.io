@@ -46,8 +46,22 @@ function unhover(element) {
     <div class="centered">Recent Work</div>
     <img class="redcircle" src="Components/RedCircles.png">
 </div>            
+<div class="footer">
+    <a class="logo-link" href="index.html">
+        <img id="logo2" src="Components/LogoWHITE.png" onmouseover="hover(this);" onmouseout="unhover(this);" />      
+<script>
+function hover(element) {
+  element.setAttribute('src', 'Components/LogoRed.png');
+}
 
-  
+function unhover(element) {
+  element.setAttribute('src', 'Components/LogoWHITE.png');
+}
+</script>
+        </a>
+    <img class="work-branch2" src="Components/leafpageDividerV2RED.png">
+</div>
+            
 </body>
     
 </html>
