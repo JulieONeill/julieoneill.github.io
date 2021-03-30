@@ -176,17 +176,6 @@ body {
     text-align: center;
 }
 
-.work-branch2 {
-    margin-top: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 230px;
-    height: auto;
-    position: relative;
-    text-align: center;
-}
-
 h3{
     color: black;
     font-size: 11pt;
@@ -280,7 +269,7 @@ img {
 
 .footer {
     background-color: #ffbcbd;
-    height: 300px;
+    height: 400px;
     text-align: center;
     border-bottom: 10px solid #e60026;
 }
@@ -293,6 +282,29 @@ img {
     margin-top: 45px;  
     width: 130px;
     height: auto;
+}
+
+.social-media {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center
+}
+
+.social-media img {
+    width: 40px;
+    height: auto;
+    padding: 0 5px;
+}
+
+.work-branch2 {
+    margin-bottom: -80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    height: auto;
+    position: relative;
+    text-align: center;
 }
 
 /*.middle {
