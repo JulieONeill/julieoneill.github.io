@@ -90,7 +90,7 @@ body {
 
 .nav a {
     margin-top:55px;
-    line-height: 12px;
+    line-height: 30px;
     float: left;
     padding: 5px 10px;
     text-decoration: none;
@@ -217,7 +217,6 @@ h3{
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    
 }
 
 .centered {
@@ -236,6 +235,19 @@ h3{
     width: 150px;
     height: auto;
 }
+    
+.holder {
+    background-color: pink;
+    width: auto;
+    height: 1297px;
+}
+
+.sign {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .work1 {
     background: #f2f2f2;
@@ -249,16 +261,15 @@ h3{
     align-content: flex-start;
 }
 
+img {
+    margin-bottom: -3px;
+}
+
 .work-img {
     margin: 10px;
     height:100%;
     border: 2px solid lightgrey;
 }
-
-img {
-    margin-bottom: -3px;
-}
-
 .leaf-background {
     background-color: #f2f2f2;
     height: auto;
@@ -276,43 +287,85 @@ img {
     height: 300px;
     text-align: center;
 }
-    
-.holder {
-    background-color: pink;
-    width: auto;
-    height: 1297px;
+
+/*.middle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 300px;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: black;
 }
 
-.sign {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.work-img:hover .work-text{
+    opacity: 1;
 }
 
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.work-img:hover .{
-  opacity: 0.3;
-}
-
-.:hover .middle {
-  opacity: 1;
+.work-img:hover .middle{
+  opacity: 0.5;
 }
 
 .text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}*/
+
+.clickable-link {
+  position:relative;
+  color:white;
+  width:220px;
+  display:block;
+}
+
+.clickable-container:hover {
+  cursor:pointer;
+  color:#fff490;
+}
+.overlay{
+  display:none;
+    text-align: center;
+}
+
+.info-container {
+  background:#1d1f21;
+  position:relative;
+  color:white;
+  width:220px;
+  display:block;
+  top:-25px;
+}
+
+.clickable-link:hover .overlay {
+  position:absolute;
+  top:0;
+  left:0;
+display: flex;
+  flex-direction:column;
+  justify-content:center;
+  background: #1d1f21;
+  border-radius: 5px;
+    width:100%;
+  height:100%;
+   opacity:0.95;
+}
+
+.work > img {
+  padding:10px;
+  background:#1d1f21;
+  border-radius: 5px;
+display:block;
+}
+
+.overlay-content {
+  font-size:1.3rem;
 }
