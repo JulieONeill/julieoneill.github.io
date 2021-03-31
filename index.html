@@ -15,8 +15,13 @@
         <a class="logo-link" href="index.html">
         <img id="logo" src="Components/LogoWHITE.png" onmouseover="hover(this);" onmouseout="unhover(this);" />      
 <script>
-<a title="Logo" href="Components/LogoWHITE.png" target="_blank" class="toolbar-buttons">
-<img src="Components/LogoRED.png'" onmouseover="this.src='Hover.jpg'" onmouseout="this.src='Original.jpg'" border="0" alt=""/>
+function hover(element) {
+  element.setAttribute('src', 'Components/LogoRED.png');
+}
+
+function unhover(element) {
+  element.setAttribute('src', 'Components/LogoWHITE.png');
+}
 </script>
             
         </a>

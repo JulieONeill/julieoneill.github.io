@@ -61,8 +61,8 @@ body {
 /*Trying to do image swap START*/
 
 #logo {
-    margin-top: -45px;  
-    width: 130px;
+    margin-top: -70px;  
+    width: 160px;
     height: auto;
 }
 
@@ -73,7 +73,7 @@ body {
     padding: 5px 10px;
     text-decoration: none;
     font-weight: 600;
-    font-size: 12pt;
+    font-size: 11pt;
 }
 
 .selected {
