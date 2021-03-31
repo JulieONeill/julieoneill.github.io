@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 body {
     background-color: #f2f2f2;
     margin: 0 0 0 0;
     font-family:"Lato", sans-serif;
 }
+
+
+
+}
+
 
 /*On screens that are 992px or less, set the background color to light blue */
 
@@ -61,13 +68,13 @@ body {
 /*Trying to do image swap START*/
 
 #logo {
-    margin-top: -70px;  
+    margin-top: -50px;  
     width: 160px;
     height: auto;
 }
 
 .nav a {
-    margin-top:55px;
+    margin-top:65px;
     line-height: 30px;
     float: left;
     padding: 5px 10px;
@@ -91,6 +98,31 @@ body {
     color: red;
 }
 
+h1 {
+    font-family:"Abril+Fatface&display";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 9vw;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 1.15;
+    letter-spacing: ;
+    color: #f2f2f2;
+    margin-bottom: -10px;
+}
+
+h4 {
+    margin-top: 70px;
+    font-family:"Abril+Fatface&display";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55pt;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f2f2f2;
+}
+
 .big-text {
     position: absolute;
     top: 40%;
@@ -98,17 +130,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.big-text h1 {
-    font-family: cortado, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    font-size: 9vw;
-    white-space: nowrap;
-    color: #f2f2f2;
-    letter-spacing: 10px;
-    margin-bottom: -10px;
-}
 
 .big-text h2 {
     margin-top: 10px;
@@ -208,18 +229,6 @@ h3{
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.centered {
-    color: #f2f2f2;
-    font-family: cortado, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 45pt;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .redcircle{
