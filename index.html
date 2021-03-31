@@ -15,13 +15,20 @@
         <a class="logo-link" href="index.html">
         <img id="logo" src="Components/LogoWHITE.png" onmouseover="hover(this);" onmouseout="unhover(this);" />      
 <script>
-function hover(element) {
+    
+
+$(function () {
+    $('a img').hover( function () {
+        $(this).attr('src', $(this).attr('src').replace('LogoWHITE.png', 'LogoRed.png'') );
+    });
+});
+/*function hover(element) {
   element.setAttribute('src', 'Components/LogoRed.png');
 }
 
 function unhover(element) {
   element.setAttribute('src', 'Components/LogoWHITE.png');
-}
+}*/
 </script>
         </a>
         <a class="unselected" href="About.html">ABOUT</a>
