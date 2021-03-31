@@ -66,11 +66,6 @@ body {
     height: auto;
 }
 
-#logo2 {
-    margin-top: 20px;  
-    width: 180px;
-    height: auto;
-}
 .nav a {
     margin-top:55px;
     line-height: 30px;
@@ -269,18 +264,17 @@ img {
 
 .footer {
     background-color: #ffbcbd;
-    height: 400px;
+    height: 360px;
     text-align: center;
     border-bottom: 10px solid #e60026;
+    padding-bottom: 40px;
 }
 
-.currentLinK2 {
-    
-}
 
-.logo-top2 {
-    margin-top: 45px;  
-    width: 130px;
+
+#logo2 {
+    margin-top: 40px;  
+    width: 200px;
     height: auto;
 }
 
