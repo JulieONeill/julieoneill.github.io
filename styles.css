@@ -8,14 +8,6 @@ body {
     font-family:"Lato", sans-serif;
 }
 
-/*On screens that are 992px or less, set the background color to light blue */
-
-@media screen and (max-width: 1600px) {
-  body {
-    background-color: lightblue;
-  }
-}
-
 .background-img1 {
     background-image: url(Components/1.jpg);
     background-repeat: no-repeat;
@@ -391,6 +383,7 @@ img {
 }
 
 #Profile-grid {
+    background-color: #f2f2f2;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: auto;
@@ -408,6 +401,7 @@ img {
 }
 
 #Process-grid {
+    background-color: #f2f2f2;
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 800px;
@@ -438,3 +432,97 @@ img {
     font-size: 12pt;
 }
 
+#Contact {
+    background: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: auto;
+}
+
+.con-grid {
+    max-width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+ 
+.name-rule {
+    padding-top: 15px;
+    padding-bottom: 15px;  
+}
+
+.first {
+    font-size: 10pt;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: lightyellow;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    grid-column: span 1;
+}
+.last {
+    font-size: 10pt;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: lightyellow;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    grid-column: span 1;
+}
+
+.email {
+    font-size: 10pt;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: lightyellow;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    grid-column: span 2
+}
+
+.message {
+    font-size: 10pt;
+    border-radius: 5px;
+    border: 1px solid lightgray;    
+    background: lightyellow;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    grid-column: span 2;
+}
+
+#button {
+    text-decoration: none;
+    color: #e60026;
+    font-size: 14pt;
+    background-color: #00013a;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-branch {
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
