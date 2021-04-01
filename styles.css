@@ -471,6 +471,7 @@ img {
 
 #button {
     text-decoration: none;
+    border-radius: 5px;
     color: #e60026;
     font-size: 14pt;
     background-color: #00013a;
