@@ -52,8 +52,6 @@ body {
     padding-left: 15px;
 }
 
-/*Trying to do image swap START*/
-
 #logo {
     margin-top: -50px;  
     width: 160px;
@@ -161,6 +159,7 @@ h4 {
     text-align: center;
     margin-top:-48px;
 }
+
 .leaf-background {
     background-color: #f2f2f2;
     height: auto;
@@ -298,38 +297,6 @@ img {
     position: relative;
     text-align: center;
 }
-
-/*.middle {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 300px;
-    opacity: 0;
-    transition: 0.5s ease;
-    background-color: black;
-}
-
-.work-img:hover .work-text{
-    opacity: 1;
-}
-
-.work-img:hover .middle{
-  opacity: 0.5;
-}
-
-.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}*/
 
 .clickable-link {
     position:relative;
