@@ -8,11 +8,6 @@ body {
     font-family:"Lato", sans-serif;
 }
 
-
-
-}
-
-
 /*On screens that are 992px or less, set the background color to light blue */
 
 @media screen and (max-width: 1600px) {
@@ -129,7 +124,6 @@ h4 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 .big-text h2 {
     margin-top: 10px;
@@ -276,7 +270,6 @@ img {
     height: 360px;
 }
 
-
 .footer {
     background-color: #ffbcbd;
     height: 360px;
@@ -347,51 +340,101 @@ img {
 }*/
 
 .clickable-link {
-  position:relative;
-  color:white;
-  width:220px;
-  display:block;
+    position:relative;
+    color:white;
+    width:220px;
+    display:block;
 }
 
 .clickable-container:hover {
-  cursor:pointer;
-  color:#fff490;
+    cursor:pointer;
+    color:#fff490;
 }
+
 .overlay{
   display:none;
     text-align: center;
 }
 
 .info-container {
-  background:#1d1f21;
-  position:relative;
-  color:white;
-  width:220px;
-  display:block;
-  top:-25px;
+    background:#1d1f21;
+    position:relative;
+    color:white;
+    width:220px;
+    display:block;
+    top:-25px;
 }
 
 .clickable-link:hover .overlay {
-  position:absolute;
-  top:0;
-  left:0;
-display: flex;
-  flex-direction:column;
-  justify-content:center;
-  background: #1d1f21;
-  border-radius: 5px;
+    position:absolute;
+    top:0;
+    left:0;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    background: #1d1f21;
+    border-radius: 5px;
     width:100%;
-  height:100%;
-   opacity:0.95;
+    height:100%;
+    opacity:0.95;
 }
 
 .work > img {
-  padding:10px;
-  background:#1d1f21;
-  border-radius: 5px;
-display:block;
+    padding:10px;
+    background:#1d1f21;
+    border-radius: 5px;
+    display:block;
 }
 
 .overlay-content {
-  font-size:1.3rem;
+    font-size:1.3rem;
 }
+
+#Profile-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    max-width: 800px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#Profile-grid img{
+    padding-top: 5px;
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+#Process-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    margin: auto;
+    grid-row-gap: 100px;
+    grid-column-gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#Process-grid img{
+    padding-top: 5px;
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+#Process-grid .process-heading {
+    font-family:"Abril+Fatface&display";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30pt;
+}
+
+#Process-grid .process-sub-heading {
+    padding-top: 5px;
+    font-family:"Lato", sans-serif;
+    font-size: 12pt;
+}
+
