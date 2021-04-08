@@ -455,40 +455,42 @@ h3{
 }
 
 .flexbox-layout {
-  position: relative;
-  width: 300px;
+    position: relative;
+    width: 300px;
 }
 
 .image {
-  opacity: 1;
-  display: flex;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
+    opacity: 1;
+    display: flex;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .overlay {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .flexbox-layout:hover .image {
-  opacity: 0.3;
+    opacity: 0.3;
 }
 
 .flexbox-layout:hover .overlay {
-  opacity: 1;
+    opacity: 1;
 }
 
 .overlay-content {
-  background-color: #e60026;
-  color: #fff;
-  font-size: 17px;
-  padding: 16px 32px;
+    background-color: #e60026;
+    color: #fff;
+    font-size: 16pt;
+    padding: 10px 30px;
+    white-space: nowrap;
+}
