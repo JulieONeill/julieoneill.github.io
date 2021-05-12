@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///Users/user/Documents/GitHub/289.101/Week%209/Layout_2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+
+    <title>Layout 1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./Layout 1_files/bootstrap.min.css">
+    
+    <style>
+    *{ outline: white 8px solid }
+        
+    .blue {
+    background-color: #3FB4FF;
+    height: 100px;
+    }
+    
+    .green {
+    background-color: #a6d800;
+    height: 100px;
+    }
+      
+    .orange {
+    background-color: #ffae2e;
+    height: auto;
+    } 
+        
+    .grey {
+    background-color: #c4c4c4;
+    height: 250px;
+    } 
+        
+    .wine {
+    background-color: #af3552;
+    height: auto;
+    }
+
+    /* xs devices */
+    body { background-color: red }
+        
+    /* sm devices */
+    @media (min-width: 576px) {
+    body { background-color: orange }
+    }
+        
+    /* md devices */
+    @media (min-width: 768px) {
+    body { background-color: yellow }    
+        .grey {
+        background-color: #c4c4c4;
+        height: 200px;
+        }
+        .green {
+        background-color: #a6d800;
+        height: 250px;
+        }
+    }
+        
+    /* lg devices */
+    @media (min-width: 992px) {
+    body { background-color: green }
+    }
+        
+    /* xl devices */
+    @media (min-width: 1200px) {
+    body { background-color: blue}
+    }
+
+    </style>
+    
+</head>
+    
+<body>
+    
+<div class="container">
+    <div class="row">
+        <div class="col-sm blue"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 green"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-6 orange">
+            <div class="row">
+                <div class="col-6 col-xs-2 col-md-6 grey"></div>
+                <div class="col-6 col-xs-2 col-md-6 grey"></div>
+                
+            </div>
+            
+            <div class="row">
+                <div class="col-6 col-xs-2 col-md-6 grey"></div>
+                <div class="col-6 col-xs-2 col-md-6 grey"></div>
+            </div>
+            
+            <div class="row">
+                <div class="col-6 col-xs-2 col-md-6 grey"></div>
+                <div class="col-6 col-xs-2 col-md-6 grey"></div>
+            </div>
+            
+        </div>
+    
+    <div class="d-none d-sm-none d-md-block col-md-6 wine"></div>
+    </div>
+    
+    
+    
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 d-md-none wine"></div>
+        
+    </div>
+    
+</div>
+    
+
+    
+</body></html>
